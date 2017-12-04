@@ -2,9 +2,9 @@
 require 'openssl'
 require 'base64'
 require 'net/http/post/multipart'
-requrl = "http://### identify-eu-west-1.acrcloud.com###/v1/identify"
-access_key = "###38fe661b266535bc3af0f98b3251843eY###"
-access_secret = "###oU2255X8SHuiZIcFKXhQCtx9aWNl27L1RWn4GngV###"
+requrl = "http://identify-eu-west-1.acrcloud.com/v1/identify"
+access_key = "38fe661b266535bc3af0f98b3251843eY"
+access_secret = "oU2255X8SHuiZIcFKXhQCtx9aWNl27L1RWn4GngV"
 http_method = "POST"
 http_uri = "/v1/identify"
 data_type = "audio"
